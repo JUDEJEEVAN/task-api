@@ -1,0 +1,15 @@
+.supabase
+
+.env
+.env.local
+.env.production
+
+node_modules
+
+*.log
+
+.DS_Store
+Thumbs.db
+
+dist/
+build/

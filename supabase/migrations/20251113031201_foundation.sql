@@ -57,7 +57,7 @@ CREATE TABLE profiles (
     id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
 
     full_name TEXT NOT NULL,
-    profile_url TEXT,
+    avatar_url TEXT,
     bio TEXT,
 
     created_at TIMESTAMPtZ DEFAULT now(),

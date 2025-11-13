@@ -1,0 +1,25 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "/* To invoke locally:",
+  "main": "index.js",
+  "scripts": {
+    "db:start": "supabase start",
+    "db:stop": "supabase stop",
+    "db:reset": "supabase db reset",
+    "db:studio": "open http://localhost:54323",
+    "functions:serve": "supabase functions serve",
+    "test": "echo \"Tests coming soon!\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JUDEJEEVAN/task-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JUDEJEEVAN/task-api/issues"
+  },
+  "homepage": "https://github.com/JUDEJEEVAN/task-api#readme"
+}
